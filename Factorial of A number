@@ -1,0 +1,19 @@
+Time comlexity & Space Complexity in factorial of a number!!
+Tc:- O(n) & Sc:- O(n)(Due to Recursive call)
+
+Code overview:-
+
+def factorial(n):
+        if n==1:
+            return 1
+        else:
+                return (n*factorial(n-1))
+
+def main():
+    # Your code goes here
+    val= int(input())
+    ans=factorial(val) 
+    print(ans)
+    
+if __name__ == "__main__":
+    main()
